@@ -1,0 +1,208 @@
+html,
+body {
+  font-size: 16px;
+  background-image: url(main-back.jpg);
+  background-position: center;
+}
+
+*{
+  font-family: "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-heading {
+ margin: 10px;
+ padding: 5px;
+}
+
+#profilepic{
+    height: 10%;
+    width: 10%;
+    margin: 10px;
+}
+
+#header{
+    margin: 10px;
+    background-image: url(aryan-dhiman-iGLLtLINSkw-unsplash.jpg);
+}
+
+#header-section{
+    display: flex;
+}
+#name-of{
+    margin-left: 22%;
+    margin-top: 5%;
+    font-size:1.5em;
+    font-weight: bolder;
+    color: rgba(251, 251, 251, 0.959);
+}
+
+/* Horizontal Lists */
+.horizontal-list {
+  list-style: none;
+}
+
+.horizontal-list li {
+  display: inline;
+}
+
+.horizontal-list li a {
+  color: rgb(219, 27, 194);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* Nav Bar */
+.nav-menu {
+  height: 1em;
+  line-height: 1em;
+}
+
+.nav-menu li {
+  margin: 0px 8px;
+}
+
+.nav-menu li a {
+  font-size: 1em;
+}
+
+.nav-menu li a:hover {
+  color: lightgrey;
+  border-bottom: 2px solid #494949;
+}
+
+#about{
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(191, 161, 185);
+}
+
+/* Percentage Classes */
+.eighty-five-percent {
+  width: 85%;
+  height: inherit;
+}
+
+.fifty-percent {
+  width: 50%;
+  height: inherit;
+}
+
+/* Skills */
+#skills-container {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-progress {
+  width: 20%;
+  min-width: 180px;
+  height: auto;
+  border-radius: 25px;
+  background-color: lightgrey;
+  margin: 2rem 1rem;
+}
+
+.skill-progress > div {
+  border-radius: 25px 0 0 25px;
+  box-shadow: 4px 0px 4px 0px grey;
+}
+
+#skill-1, #skill-5 {
+  background-color: dodgerblue;
+}
+
+#skill-2 {
+  background-color: orangered;
+}
+
+#skill-4 {
+  background-color: green;
+}
+
+#skill-3, #skill-6 {
+  background-color: palevioletred;
+}
+
+.skill-name {
+  margin-left: 10px;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+/*table */
+table{
+  margin: 10px;
+  padding: 5px;
+  width: 98%;
+  border-collapse: collapse;
+  
+}
+
+table,th,td{
+  border: 2px solid black;
+}
+th{
+  font-size: larger;
+  background-color: rgb(191, 161, 185);
+}
+
+td{
+  font-size: larger;
+  padding-left: 15px;
+}
+
+#publications{
+  padding: 10px;
+}
+#publications div{
+  margin-top: 13px;
+}
+#publications a{
+  text-decoration: none;
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-decoration: wavy;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(104, 17, 86);
+}
+
+#publications a:hover{
+  background-color: rgb(191, 161, 185);
+}
+
+#projects{
+  padding: 10px;
+}
+#projects div{
+  margin-top: 13px;
+}
+
+#projects a{
+  text-decoration: none;
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-decoration: wavy;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(29, 17, 104);
+}
+
+#projects a:hover{
+  background-color:  rgb(131, 131, 236);
+}
+
+#contact-info{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: large
+}
